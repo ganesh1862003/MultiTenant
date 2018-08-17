@@ -1,0 +1,82 @@
+8/6/2018 11:41:30 AM	This log contains information about the import schema operation into project 'Shared' on computer 'LV054211001336' by user 'GaneshaH'.
+8/6/2018 11:41:31 AM	Import of database schema has started.
+8/6/2018 11:41:44 AM	Gathering database credentials
+8/6/2018 11:41:44 AM	Gathering database options
+8/6/2018 11:41:44 AM	Gathering users
+8/6/2018 11:41:44 AM	Gathering roles
+8/6/2018 11:41:44 AM	Gathering application roles
+8/6/2018 11:41:44 AM	Gathering role memberships
+8/6/2018 11:41:44 AM	Gathering filegroups
+8/6/2018 11:41:44 AM	Gathering full-text catalogs
+8/6/2018 11:41:44 AM	Gathering assemblies
+8/6/2018 11:41:44 AM	Gathering certificates
+8/6/2018 11:41:44 AM	Gathering asymmetric keys
+8/6/2018 11:41:44 AM	Gathering symmetric keys
+8/6/2018 11:41:44 AM	Gathering encrypted symmetric keys
+8/6/2018 11:41:44 AM	Gathering schemas
+8/6/2018 11:41:44 AM	Gathering XML schema collections
+8/6/2018 11:41:44 AM	Gathering user-defined data types
+8/6/2018 11:41:44 AM	Gathering user-defined types
+8/6/2018 11:41:44 AM	Gathering table types
+8/6/2018 11:41:44 AM	Gathering unique keys for table types
+8/6/2018 11:41:44 AM	Gathering primary keys for table types
+8/6/2018 11:41:44 AM	Gathering indexes for table types
+8/6/2018 11:41:44 AM	Gathering check constraints for table types
+8/6/2018 11:41:44 AM	Gathering default constraints for table types
+8/6/2018 11:41:44 AM	Gathering partition functions
+8/6/2018 11:41:44 AM	Gathering partition schemes
+8/6/2018 11:41:44 AM	Gathering functions
+8/6/2018 11:41:44 AM	Gathering encrypted functions
+8/6/2018 11:41:44 AM	Gathering aggregates
+8/6/2018 11:41:44 AM	Gathering procedures
+8/6/2018 11:41:44 AM	Gathering encrypted procedures
+8/6/2018 11:41:44 AM	Gathering tables
+8/6/2018 11:41:44 AM	Gathering primary keys
+8/6/2018 11:41:44 AM	Gathering unique constraints
+8/6/2018 11:41:44 AM	Gathering foreign keys
+8/6/2018 11:41:44 AM	Gathering default constraints
+8/6/2018 11:41:44 AM	Gathering check constraints
+8/6/2018 11:41:44 AM	Gathering views
+8/6/2018 11:41:44 AM	Gathering encrypted views
+8/6/2018 11:41:44 AM	Gathering indexes
+8/6/2018 11:41:44 AM	Gathering statistics
+8/6/2018 11:41:44 AM	Gathering full-text index stoplists
+8/6/2018 11:41:44 AM	Gathering search property lists
+8/6/2018 11:41:44 AM	Gathering search properties
+8/6/2018 11:41:44 AM	Gathering full-text indexes
+8/6/2018 11:41:44 AM	Gathering column store indexes
+8/6/2018 11:41:44 AM	Gathering spatial indexes
+8/6/2018 11:41:44 AM	Gathering XML indexes
+8/6/2018 11:41:44 AM	Gathering Selective XML indexes
+8/6/2018 11:41:44 AM	Gathering encrypted triggers
+8/6/2018 11:41:44 AM	Gathering triggers
+8/6/2018 11:41:44 AM	Gathering encrypted and clr ddl triggers
+8/6/2018 11:41:44 AM	Gathering ddl triggers
+8/6/2018 11:41:44 AM	Gathering synonyms
+8/6/2018 11:41:44 AM	Gathering defaults
+8/6/2018 11:41:44 AM	Gathering data constraint uddt bindings
+8/6/2018 11:41:44 AM	Gathering rules
+8/6/2018 11:41:44 AM	Gathering data constraint uddt bindings
+8/6/2018 11:41:44 AM	Gathering message types
+8/6/2018 11:41:44 AM	Gathering queues
+8/6/2018 11:41:44 AM	Gathering contracts
+8/6/2018 11:41:44 AM	Gathering services
+8/6/2018 11:41:44 AM	Gathering event notifications
+8/6/2018 11:41:44 AM	Gathering remote service bindings
+8/6/2018 11:41:44 AM	Gathering broker priorities
+8/6/2018 11:41:44 AM	Gathering signatures
+8/6/2018 11:41:44 AM	Gathering data compression options
+8/6/2018 11:41:44 AM	Gathering sequence types
+8/6/2018 11:41:44 AM	Gathering security policies
+8/6/2018 11:41:44 AM	Gather column encryption keys
+8/6/2018 11:41:44 AM	Gathering column master keys
+8/6/2018 11:41:44 AM	Gathering external data sources
+8/6/2018 11:41:44 AM	Gathering external file formats
+8/6/2018 11:41:44 AM	Gathering external tables
+8/6/2018 11:41:44 AM	Gathering database permissions
+8/6/2018 11:41:44 AM	Gathering extended properties
+8/6/2018 11:41:45 AM	Scanning project for duplicate elements
+8/6/2018 11:41:45 AM	Finished duplicate element processing
+8/6/2018 11:41:45 AM	Finished importing database.
+8/6/2018 11:41:45 AM	A summary of the import was saved to the following location: D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\CODE\Databases\Shared\Import Schema Logs\Shared_20180806061130.log
+8/6/2018 11:41:45 AM	Click Finish to continue...
