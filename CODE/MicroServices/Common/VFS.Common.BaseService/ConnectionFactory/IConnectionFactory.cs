@@ -6,6 +6,6 @@ namespace VFS.Common.BaseService.ConnectionFactory
 {
     public interface IConnectionFactory
     {
-        Task<IDbConnection> CreateConnectionAsync(AppContext context, DatabaseType databaseType);
+        Task<IDbConnection> CreateConnectionAsync(ApplicationContext context, DatabaseType databaseType);
     }
 }

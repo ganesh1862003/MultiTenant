@@ -23,7 +23,7 @@ namespace VFS.Common.Configuration.Repository
         /// <param name="context"></param>
         /// <param name="configurationKey"></param>
         /// <returns>It returns Configuration Value based on enigmacontext and configurationkey</returns>
-        public async Task<IList<SystemConfiguration>> GetSystemConfigurationAsync(AppContext context, string configurationKey)
+        public async Task<IList<SystemConfiguration>> GetSystemConfigurationAsync(ApplicationContext context, string configurationKey)
         {
             using (IDbConnection connection = new SqlConnection(_configDBConnectionString))
             {

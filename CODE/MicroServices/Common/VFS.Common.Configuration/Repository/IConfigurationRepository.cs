@@ -6,6 +6,6 @@ namespace VFS.Common.Configuration.Repository
 {
     public interface IConfigurationRepository
     {
-        Task<IList<SystemConfiguration>> GetSystemConfigurationAsync(AppContext context, string configurationKey);
+        Task<IList<SystemConfiguration>> GetSystemConfigurationAsync(ApplicationContext context, string configurationKey);
     }
 }

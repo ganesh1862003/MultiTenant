@@ -6,8 +6,8 @@
     }
     public class ServiceBaseConstant
     {
-        public const string AppContext = "AppContext";
+        public const string ApplicationContext = "AppContext";
 
-        public const string AppRedirectionUrl = "AppRedirectionUrl";
+        public const string ApplicationRedirectionUrl = "AppRedirectionUrl";
     }
 }

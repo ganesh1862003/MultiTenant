@@ -2,12 +2,12 @@
 
 namespace VFS.Common.Configuration.Models
 {
-    public class AppUrl
+    public class ApplicationUrl
     {
         public string MissionCode { get; set; }
         public string CountryOpsCode { get; set; }
         public string UnitOpsCode { get; set; }
-        public AppUrl(string url)
+        public ApplicationUrl(string url)
         {
             var urlArray = url.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
 

@@ -24,7 +24,7 @@ namespace VFS.Common.BaseService.ConnectionFactory
         /// <param name="context"></param>
         /// <param name="databaseType"></param>
         /// <returns></returns>
-        public async Task<IDbConnection> CreateConnectionAsync(AppContext context, DatabaseType databaseType)
+        public async Task<IDbConnection> CreateConnectionAsync(ApplicationContext context, DatabaseType databaseType)
         {
             SystemConfiguration configuration;
             switch (databaseType)

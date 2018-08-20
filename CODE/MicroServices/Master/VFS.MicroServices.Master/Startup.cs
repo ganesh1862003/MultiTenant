@@ -4,8 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using VFS.Common.BaseService;
-//using VFS.Enigma.Master.Manager;
-//using VFS.Enigma.Master.Repository;
+using VFS.MicroServices.Master.Manager;
+using VFS.MicroServices.Master.Repository;
 
 namespace VFS.MicroServices.Master
 {
@@ -27,8 +27,8 @@ namespace VFS.MicroServices.Master
             };
 
             ConfigureBaseServices(services, swaggerInfo);
-            //Container.Register<IMasterRepository, MasterRepository>();
-            //Container.Register<IMasterManager, MasterManager>();
+            Container.Register<IMasterRepository, MasterRepository>();
+            Container.Register<IMasterManager, MasterManager>();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

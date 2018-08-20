@@ -1,0 +1,9 @@
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\bin\Debug\netcoreapp2.1\VFS.Common.Configuration.deps.json
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\bin\Debug\netcoreapp2.1\VFS.Common.Configuration.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\bin\Debug\netcoreapp2.1\VFS.Common.Configuration.pdb
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.csprojAssemblyReference.cache
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.csproj.CoreCompileInputs.cache
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.AssemblyInfoInputs.cache
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.AssemblyInfo.cs
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MT\CODE\MicroServices\Common\VFS.Common.Configuration\obj\Debug\netcoreapp2.1\VFS.Common.Configuration.pdb

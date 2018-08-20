@@ -5,6 +5,6 @@ namespace VFS.Common.BaseService.Repository
 {
     public interface IAppContextRepository
     {
-        Task<AppContext> GetAppContextAsync(string missionCode, string countryOpsCode, string unitOpsCode);
+        Task<ApplicationContext> GetAppContextAsync(string missionCode, string countryOpsCode, string unitOpsCode);
     }
 }

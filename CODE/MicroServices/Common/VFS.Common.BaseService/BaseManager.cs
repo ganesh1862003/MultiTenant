@@ -16,7 +16,7 @@ namespace VFS.Common.BaseService
         /// </summary>
         /// <param name="AppUrl"></param>
         /// <returns>Returns the Global App Context </returns>
-        public AppContext BuildAppContext(AppUrl AppUrl)
+        public ApplicationContext BuildAppContext(ApplicationUrl AppUrl)
         {
             return _AppContextRepository.GetAppContextAsync(AppUrl?.MissionCode, AppUrl?.CountryOpsCode, AppUrl?.UnitOpsCode).Result;
         }

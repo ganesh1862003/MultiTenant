@@ -23,9 +23,9 @@ namespace VFS.Common.BaseService.Repository
         /// <param name="countryOpsCode"></param>
         /// <param name="unitOpsCode"></param>
         /// <returns></returns>
-        public async Task<AppContext> GetAppContextAsync(string missionCode, string countryOpsCode, string unitOpsCode)
+        public async Task<ApplicationContext> GetAppContextAsync(string missionCode, string countryOpsCode, string unitOpsCode)
         {
-            var context = new AppContext();
+            var context = new ApplicationContext();
 
             using (IDbConnection connection = await _connectionFactory.CreateConnectionAsync(context, DatabaseType.SharedDB))
             {
@@ -38,7 +38,7 @@ namespace VFS.Common.BaseService.Repository
                     UnitOpsCode = unitOpsCode
                 };
 
-                context = await connection.QueryFirstOrDefaultAsync<AppContext>(BaseSPConstant.usp_GetAppContext
+                context = await connection.QueryFirstOrDefaultAsync<ApplicationContext>(BaseSPConstant.usp_GetAppContext
                     , param, null, null, CommandType.StoredProcedure);
             }
 

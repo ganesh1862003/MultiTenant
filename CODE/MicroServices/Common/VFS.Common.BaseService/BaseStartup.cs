@@ -100,9 +100,9 @@ namespace VFS.Common.BaseService
                 var requestUrl = context.Request.Path.ToString();
                 if (IsApiUrl(requestUrl))
                 {
-                    var appurl = new AppUrl(requestUrl);
-                    context.Items[ServiceBaseConstant.AppContext] = ManagerBase.BuildAppContext(appurl);
-                    context.Items[ServiceBaseConstant.AppRedirectionUrl] = appurl;
+                    var appurl = new ApplicationUrl(requestUrl);
+                    context.Items[ServiceBaseConstant.ApplicationContext] = ManagerBase.BuildAppContext(appurl);
+                    context.Items[ServiceBaseConstant.ApplicationRedirectionUrl] = appurl;
                 }
 
                 await next.Invoke();

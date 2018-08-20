@@ -5,6 +5,6 @@ namespace VFS.Common.Configuration
 {
     public interface IConfigurationManager
     {
-        Task<SystemConfiguration> GetSystemConfigurationAsync(AppContext context, string configurationKey);
+        Task<SystemConfiguration> GetSystemConfigurationAsync(ApplicationContext context, string configurationKey);
     }
 }

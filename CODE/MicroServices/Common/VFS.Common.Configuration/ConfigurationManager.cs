@@ -21,7 +21,7 @@ namespace VFS.Common.Configuration
         /// <param name="context"></param>
         /// <param name="configurationKey"></param>
         /// <returns>It returns Configuration Value based on enigmacontext and configurationkey</returns>
-        public async Task<SystemConfiguration> GetSystemConfigurationAsync(AppContext context, string configurationKey)
+        public async Task<SystemConfiguration> GetSystemConfigurationAsync(ApplicationContext context, string configurationKey)
         {
             var configurations = await _configurationRepository.GetSystemConfigurationAsync(context, configurationKey);
 
@@ -34,7 +34,7 @@ namespace VFS.Common.Configuration
         /// <param name="configurations"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        private SystemConfiguration SelectConfiguration(IList<SystemConfiguration> configurations, AppContext context)
+        private SystemConfiguration SelectConfiguration(IList<SystemConfiguration> configurations, ApplicationContext context)
         {
             if (configurations == null && configurations.Count <= 0) return null;
 

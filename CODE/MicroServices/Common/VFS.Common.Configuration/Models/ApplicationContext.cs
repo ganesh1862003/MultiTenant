@@ -2,7 +2,7 @@
 
 namespace VFS.Common.Configuration.Models
 {
-    public class AppContext
+    public class ApplicationContext
     {
         public Guid? MissionID { get; set; }
         public Guid? CountryOpsID { get; set; }
