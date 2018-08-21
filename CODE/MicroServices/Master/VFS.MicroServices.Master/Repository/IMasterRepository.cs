@@ -15,5 +15,14 @@ namespace VFS.MicroServices.Master.Repository
         /// <param name="formmetadataContext"></param>
         /// <returns>List of table list</returns>
         Task<List<T>> FetchMasterMetadataAsync<T>(ApplicationContext applicationContext, FormMetadataContext formmetadataContext);
+
+        /// <summary>
+        /// Get Generic Masters Data
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="appContext"></param>
+        /// <param name="formTableMetadata"></param>
+        /// <returns></returns>
+        Task<List<T>> FetchMasterDataAsync<T>(ApplicationContext applicationContext, FormTableMetaData formTableMetadata);
     }
 }

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Mission] (
+    [Id]   UNIQUEIDENTIFIER CONSTRAINT [DF__Mission__Id__4E88ABD4] DEFAULT (newid()) NOT NULL,
+    [Name] NVARCHAR (250)   NOT NULL,
+    [Code] VARCHAR (10)     NOT NULL,
+    CONSTRAINT [PK_Mission] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

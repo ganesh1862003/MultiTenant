@@ -9,10 +9,10 @@ BEGIN
 	SELECT [config].[MissionID]
 		,[config].[CountryOpsID]
 		,[config].[UnitOpsID]
-		,[config].[ConfigurationKey]
-		,[config].[ConfigurationValue]
+		,[config].[Key]
+		,[config].[Value]
 	FROM [dbo].[SystemConfiguration] config
-	WHERE [config].ConfigurationKey = @ConfigurationKey
+	WHERE [config].[Key] = @ConfigurationKey
 		AND (
 			(
 				[config].UnitOpsID = @UnitOpsID

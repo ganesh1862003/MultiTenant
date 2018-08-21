@@ -8,11 +8,13 @@ BEGIN
 
 	IF (@UnitOpsCode IS NOT NULL)
 	BEGIN
-		SELECT J.MissionID
-			,J.CountryOpsID
-			,U.UnitOpsID
+		SELECT [COP].MissionID [MissionID]
+			,[JM].CountryOpsID [CountryOpsID]
+			,U.[Id] [UnitOpsID]
 		FROM [dbo].[UnitOps] U
-		INNER JOIN [dbo].[Jurisdiction] J ON U.JurisdictionID = J.JurisdictionID
+		INNER JOIN [dbo].[JurisdictionMap] JM ON U.JurisdictionID = JM.[Id]
+		INNER JOIN [dbo].[Jurisdiction] J ON [JM].[JurisdictionId] = [J].[Id]
+		INNER JOIN [dbo].[CountryOfOperation] COP ON [JM].[CountryOpsId] = [COP].[Id]		
 		WHERE U.UnitOpsCode = @UnitOpsCode
 	END
 	ELSE IF (
@@ -20,21 +22,20 @@ BEGIN
 			AND @MissionCode IS NOT NULL
 			)
 	BEGIN
-		SELECT mc.MissionID
-			,mc.CountryOpsID
-			,NULL AS UnitOpsID
-		FROM [dbo].[MissionCountryOps] mc
-		INNER JOIN [dbo].[CountryOps] c ON mc.CountryOpsID = c.CountryOpsID
-		INNER JOIN [dbo].[Mission] m ON mc.MissionID = m.MissionID
-		WHERE c.CountryOpsCode = @CountryOpsCode
-			AND m.MissionCode = @MissionCode
+		SELECT mc.MissionID [MissionID]
+			,[mc].[Id] [CountryOpsID]
+			,NULL AS [UnitOpsID]
+		FROM [dbo].[CountryOfOperation] mc
+		INNER JOIN [dbo].[Mission] m ON mc.MissionID = m.[Id]
+		WHERE [mc].[Code] = @CountryOpsCode
+			AND m.[Code] = @MissionCode
 	END
 	ELSE IF (@MissionCode IS NOT NULL)
 	BEGIN
-		SELECT m.MissionID
-			,NULL AS CountryOpsID
-			,NULL AS UnitOpsID
+		SELECT m.[Id] [MissionID]
+			,NULL AS [CountryOpsID]
+			,NULL AS [UnitOpsID]
 		FROM [dbo].[Mission] AS m
-		WHERE m.MissionCode = @MissionCode
+		WHERE m.[Code] = @MissionCode
 	END
 END	

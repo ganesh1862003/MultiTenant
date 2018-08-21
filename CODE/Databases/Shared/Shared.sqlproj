@@ -67,12 +67,13 @@
   <ItemGroup>
     <Build Include="dbo\Tables\SystemConfiguration.sql" />
     <Build Include="dbo\Tables\UnitOps.sql" />
-    <Build Include="dbo\Tables\MissionCountryOps.sql" />
     <Build Include="dbo\Tables\Mission.sql" />
     <Build Include="dbo\Tables\Jurisdiction.sql" />
-    <Build Include="dbo\Tables\CountryOps.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetSystemConfiguration.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetApplicationContext.sql" />
     <Build Include="Security\Permissions.sql" />
+    <Build Include="dbo\Tables\JurisdictionMap.sql" />
+    <Build Include="dbo\Tables\CountryOfOperation.sql" />
+    <Build Include="dbo\Tables\Country.sql" />
   </ItemGroup>
 </Project>
