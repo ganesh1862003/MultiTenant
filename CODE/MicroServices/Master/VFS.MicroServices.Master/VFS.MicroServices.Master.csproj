@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\VFS.Common.BaseService\VFS.Common.BaseService.csproj" />
+    <ProjectReference Include="..\..\Common\VFS.Common.Configuration\VFS.Common.Configuration.csproj" />
   </ItemGroup>
 
 </Project>

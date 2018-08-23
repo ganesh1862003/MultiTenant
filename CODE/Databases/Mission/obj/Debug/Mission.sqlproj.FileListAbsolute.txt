@@ -1,0 +1,9 @@
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\bin\Debug\Mission.dacpac
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\bin\Debug\Mission.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\bin\Debug\Mission.pdb
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\Model.xml
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\refactor.xml
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\postdeploy.sql
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\predeploy.sql
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\Mission.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Mission\obj\Debug\Mission.pdb

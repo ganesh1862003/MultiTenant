@@ -7,3 +7,12 @@ D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\CODE\Databases\Shared\obj\Debug\postdep
 D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\CODE\Databases\Shared\obj\Debug\predeploy.sql
 D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\CODE\Databases\Shared\obj\Debug\Shared.dll
 D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\CODE\Databases\Shared\obj\Debug\Shared.pdb
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\bin\Debug\Shared.dacpac
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\bin\Debug\Shared.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\bin\Debug\Shared.pdb
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\Model.xml
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\refactor.xml
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\postdeploy.sql
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\predeploy.sql
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\Shared.dll
+D:\_OFFICE\_SVN\_SCRUM\_APPLICATION\_VFS\MultiTenant\CODE\Databases\Shared\obj\Debug\Shared.pdb

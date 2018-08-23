@@ -9,6 +9,9 @@
     [ModifiedBy]      INT              NULL,
     [ModifiedDateUTC] DATETIME         NULL,
     CONSTRAINT [PK_JurisdictionMap] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_CountryOfOperation_JurisdictionMap] FOREIGN KEY ([CountryOpsId]) REFERENCES [dbo].[CountryOfOperation] ([Id]),
     CONSTRAINT [FK_Jurisdiction_JurisdictionMapId] FOREIGN KEY ([JurisdictionId]) REFERENCES [dbo].[Jurisdiction] ([Id])
 );
+
+
 

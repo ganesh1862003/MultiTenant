@@ -1,0 +1,45 @@
+﻿@model MDM_UI.Models.LanguageMap
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+<h4>LanguageMap</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LanguageId" class="control-label"></label>
+                <select asp-for="LanguageId" class ="form-control" asp-items="ViewBag.LanguageId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MissionId" class="control-label"></label>
+                <select asp-for="MissionId" class ="form-control" asp-items="ViewBag.MissionId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryOpsId" class="control-label"></label>
+                <select asp-for="CountryOpsId" class ="form-control" asp-items="ViewBag.CountryOpsId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitOpsId" class="control-label"></label>
+                <select asp-for="UnitOpsId" class ="form-control" asp-items="ViewBag.UnitOpsId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

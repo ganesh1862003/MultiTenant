@@ -13930,7 +13930,8 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.All >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "VFS.Common.BaseService >= 1.0.0"
+      "VFS.Common.BaseService >= 1.0.0",
+      "VFS.Common.Configuration >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13968,6 +13969,9 @@
           "projectReferences": {
             "D:\\_OFFICE\\_SVN\\_SCRUM\\_APPLICATION\\_VFS\\MultiTenant\\CODE\\MicroServices\\Common\\VFS.Common.BaseService\\VFS.Common.BaseService.csproj": {
               "projectPath": "D:\\_OFFICE\\_SVN\\_SCRUM\\_APPLICATION\\_VFS\\MultiTenant\\CODE\\MicroServices\\Common\\VFS.Common.BaseService\\VFS.Common.BaseService.csproj"
+            },
+            "D:\\_OFFICE\\_SVN\\_SCRUM\\_APPLICATION\\_VFS\\MultiTenant\\CODE\\MicroServices\\Common\\VFS.Common.Configuration\\VFS.Common.Configuration.csproj": {
+              "projectPath": "D:\\_OFFICE\\_SVN\\_SCRUM\\_APPLICATION\\_VFS\\MultiTenant\\CODE\\MicroServices\\Common\\VFS.Common.Configuration\\VFS.Common.Configuration.csproj"
             }
           }
         }
